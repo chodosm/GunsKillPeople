@@ -108,7 +108,10 @@
                                 <f7-link icon-material="compare_arrows" @click="isBottom != isBottom"></f7-link>
                             </f7-nav-right> -->
                         </f7-navbar>
-                        <f7-toolbar tabbar scrollable :bottom-md="isBottom">
+
+
+
+                        <f7-toolbar tabbar :bottom-md="isBottom">
                             <f7-link
                                 v-for="(shooting, index) in shootings"
                                 :key="shooting.year"
